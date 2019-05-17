@@ -22,8 +22,8 @@ command /pflags:
 		loop integers from 0 to 35:
 			format slot loop-number of player with {@Filler} named "&r" to be unstealable
 		format slot 10 of player with diamond sword named "&aAktiviere PvP" to close then run [make player execute command "/plot flag set pvp true"]
-		format slot 12 of player with oak door named "&aTüren entsperren" to close then run [make player execute command "/plot setflag set use acacia_door,oak_door,birch_door,dark_oak_door,jungle_door,iron_door,spruce_door"]
-		format slot 14 of player with oak trapdoor named "&aFalltüren entsperren" to close then run [make player execute command "/plot setflag set use acacia_trapdoor,oak_trapdoor,birch_trapdoor,dark_oak_trapdoor,jungle_trapdoor,iron_trapdoor,spruce_trapdoor"]
+		format slot 12 of player with oak door named "&aTüren entsperren" to close then run [make player execute command "/plot setflag add use acacia_door,oak_door,birch_door,dark_oak_door,jungle_door,iron_door,spruce_door"]
+		format slot 14 of player with oak trapdoor named "&aFalltüren entsperren" to close then run [make player execute command "/plot setflag add use acacia_trapdoor,oak_trapdoor,birch_trapdoor,dark_oak_trapdoor,jungle_trapdoor,iron_trapdoor,spruce_trapdoor"]
 		format slot 16 of player with jack o lantern named "&aForcefield An" to close then run [make player execute command "/plot flag set forcefield true"]
 		format slot 19 of player with wooden sword named "&cDeaktiviere PvP" to close then run [make player execute command "/plot flag set pvp false"]
 		format slot 21 of player with iron door named "&cTüren sperren" to close then run [make player execute command "/plot setflag remove use acacia_door,oak_door,birch_door,dark_oak_door,jungle_door,iron_door,spruce_door"]
